@@ -8,3 +8,9 @@
     max-width: 100%;
     @content;
 }
+
+//Button Hover lighten function
+
+@function btn-hover-light($base){
+  @return lighten($base, 15%)
+}
